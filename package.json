@@ -1,0 +1,14 @@
+{
+  "name": "hrithik-portfolio",
+  "version": "1.0.0",
+  "description": "My personal portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "compile_sass": "node-sass assets/scss/main.scss assets/css/style.css --source-map true -w"
+  },
+  "author": "Hithik",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^6.0.0"
+  }
+}
